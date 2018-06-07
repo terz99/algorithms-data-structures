@@ -1,0 +1,22 @@
+Insertion #0
+Preorder traversal: 14B 
+
+Insertion #1
+Preorder traversal: 14B 42R 
+
+Insertion #2
+Right rotate at: 42R
+Left rotate at: 14B
+Preorder traversal: 35B 14R 42R 
+
+Insertion #3
+Fliping colors between uncle: 42 parent: 14 grandparent: 35
+Preorder traversal: 35B 14B 7R 42B 
+
+Insertion #4
+Preorder traversal: 35B 14B 7R 26R 42B 
+
+Insertion #5
+Fliping colors between uncle: 7 parent: 26 grandparent: 14
+Preorder traversal: 35B 14R 7B 26B 17R 42B 
+

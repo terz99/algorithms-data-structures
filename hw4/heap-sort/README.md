@@ -1,0 +1,1 @@
+To start checking this homework, please start with the file ADS_hw4_Terzikj_Dushan.pdf. From there on out, just follow the instructions in the file. 

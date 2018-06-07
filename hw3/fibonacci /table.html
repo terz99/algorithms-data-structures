@@ -1,0 +1,97 @@
+<table border='1'>
+<tr>
+
+        <th>N</th><th>Matrix O(lg(N))</th><th>Closed form O(lg(N))</th><th>Bottom Up O(N)</th><th>Naive approach O(2^N)</th>
+
+    </tr>
+<tr>
+<td>                  1</td><td align='right'>           0.000001</td><td align='right'>           0.000003</td><td align='right'>           0.000006</td><td align='right'>           0.000000</td></tr>
+<tr>
+<td>                  4</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000004</td><td align='right'>           0.000000</td></tr>
+<tr>
+<td>                  7</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.000001</td></tr>
+<tr>
+<td>                 10</td><td align='right'>           0.000000</td><td align='right'>           0.000000</td><td align='right'>           0.000003</td><td align='right'>           0.000001</td></tr>
+<tr>
+<td>                 13</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000003</td><td align='right'>           0.000002</td></tr>
+<tr>
+<td>                 16</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000003</td><td align='right'>           0.000006</td></tr>
+<tr>
+<td>                 19</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000004</td><td align='right'>           0.000024</td></tr>
+<tr>
+<td>                 22</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.000100</td></tr>
+<tr>
+<td>                 25</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.000452</td></tr>
+<tr>
+<td>                 28</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000003</td><td align='right'>           0.001860</td></tr>
+<tr>
+<td>                 31</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000004</td><td align='right'>           0.007581</td></tr>
+<tr>
+<td>                 34</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.031673</td></tr>
+<tr>
+<td>                 37</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.134552</td></tr>
+<tr>
+<td>                 40</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000004</td><td align='right'>           0.562914</td></tr>
+<tr>
+<td>                 43</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000003</td><td align='right'>           2.390029</td></tr>
+<tr>
+<td>                 46</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000003</td><td align='right'>          10.398280</td></tr>
+<tr>
+<td>                 92</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000005</td><td align='right'>N/A</td></tr>
+<tr>
+<td>                184</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000007</td><td align='right'>N/A</td></tr>
+<tr>
+<td>                368</td><td align='right'>           0.000001</td><td align='right'>           0.000000</td><td align='right'>           0.000011</td><td align='right'>N/A</td></tr>
+<tr>
+<td>                736</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000019</td><td align='right'>N/A</td></tr>
+<tr>
+<td>               1472</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.000035</td><td align='right'>N/A</td></tr>
+<tr>
+<td>               2944</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000067</td><td align='right'>N/A</td></tr>
+<tr>
+<td>               5888</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.000133</td><td align='right'>N/A</td></tr>
+<tr>
+<td>              11776</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>           0.000258</td><td align='right'>N/A</td></tr>
+<tr>
+<td>              23552</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>           0.000532</td><td align='right'>N/A</td></tr>
+<tr>
+<td>              47104</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.001037</td><td align='right'>N/A</td></tr>
+<tr>
+<td>              94208</td><td align='right'>           0.000001</td><td align='right'>           0.000001</td><td align='right'>           0.002079</td><td align='right'>N/A</td></tr>
+<tr>
+<td>             188416</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.004056</td><td align='right'>N/A</td></tr>
+<tr>
+<td>             376832</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.006342</td><td align='right'>N/A</td></tr>
+<tr>
+<td>             753664</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.006645</td><td align='right'>N/A</td></tr>
+<tr>
+<td>            1507328</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.008970</td><td align='right'>N/A</td></tr>
+<tr>
+<td>            3014656</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.011351</td><td align='right'>N/A</td></tr>
+<tr>
+<td>            6029312</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.021707</td><td align='right'>N/A</td></tr>
+<tr>
+<td>           12058624</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.041879</td><td align='right'>N/A</td></tr>
+<tr>
+<td>           24117248</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>           0.079878</td><td align='right'>N/A</td></tr>
+<tr>
+<td>           48234496</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>           0.162041</td><td align='right'>N/A</td></tr>
+<tr>
+<td>           96468992</td><td align='right'>           0.000003</td><td align='right'>           0.000000</td><td align='right'>           0.319184</td><td align='right'>N/A</td></tr>
+<tr>
+<td>          192937984</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           0.640795</td><td align='right'>N/A</td></tr>
+<tr>
+<td>          385875968</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           1.286765</td><td align='right'>N/A</td></tr>
+<tr>
+<td>          771751936</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           2.661858</td><td align='right'>N/A</td></tr>
+<tr>
+<td>         1543503872</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>           5.124568</td><td align='right'>N/A</td></tr>
+<tr>
+<td>         3087007744</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>N/A</td><td align='right'>N/A</td></tr>
+<tr>
+<td>         6174015488</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>N/A</td><td align='right'>N/A</td></tr>
+<tr>
+<td>        12348030976</td><td align='right'>           0.000002</td><td align='right'>           0.000000</td><td align='right'>N/A</td><td align='right'>N/A</td></tr>
+<tr>
+<td>        24696061952</td><td align='right'>           0.000002</td><td align='right'>           0.000001</td><td align='right'>N/A</td><td align='right'>N/A</td></tr>
+</table>
